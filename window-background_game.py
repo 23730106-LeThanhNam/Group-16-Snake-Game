@@ -28,3 +28,13 @@ try:
     font = pygame.font.Font('arial.ttf', 36)
 except FileNotFoundError:
     font = pygame.font.SysFont(None, 36)
+
+# color
+BODY_COLOR = (43, 196, 0)
+EYE_COLOR = (0, 0, 0)
+HEAD_COLOR = (36, 232, 83)
+
+# Hàm chính
+def main():
+    score = 0  # Khởi tạo biến score
+    
